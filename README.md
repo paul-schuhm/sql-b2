@@ -20,20 +20,22 @@ A la fin de ce module d'introduction à SQL (avec MySQL) vous saurez :
 - Ce qu'est SQL
 - Ce qu'est une base de données implémentée suivant l'architecture client/serveur
 - Vous connecter à un serveur MySQL, gérer vos mots de passe de manière sécurisée (avec `mysql_config_editor`)
+- Utiliser MySQL en *batch mode*, de manière scriptable
 - Créer un utilisateur MySQL et lui donner des droits
 - Créer et modifier des objets en base de données (CREATE, DROP, ALTER, TRUNCATE)
 - Inspecter les objets d'une base de données (SHOW, DESCRIBE ou DESC, SHOW CREATE TABLE)
 - Manipuler les données (insertion, mise à jour, suppression) (INSERT, UPDATE, DELETE)
-- Lire les données (SELECT)
+- Lire les données (SELECT ...)
 - Transformer les données avec les jointures (INNER JOIN, CROSS JOIN)
 - Utiliser les contraintes (PRIMARY KEY, FOREIGN KEY, CHECK, NOT NULL, UNIQUE)
 - Utiliser les contraintes de clé étrangère pour garantir l'intégrité référentielle
 - Utiliser les fonctions de groupe et fabriquer des agrégats (GROUP BY, HAVING)
 - Utiliser les fonctions natives de MySQL (CONCAT, REPLACE, ADDTIME, etc.)
 - Utiliser les types de données de MySQL (INT, TINYINT, DATE, DATETIME, CHAR, VARCHAR, TEXT, etc.)
-- Utiliser les opérateurs ensemblistes (Union, Intersection, Différence, Multiplication)
 - Faire un backup d'une base de données, copier et déplacer une base de données (avec `mysqldump`)
 - Utiliser un outil d'administration de base de données (Adminer, phpMyAdmin)
+- Que toute opération de l'algèbre relationnelle *est une fermeture*
+- Identifier et utiliser les *opérations de l'algèbre relationnelle* : projection, restriction, union, intersection, différence, multiplication, jointure
 
 ## Supports
 
