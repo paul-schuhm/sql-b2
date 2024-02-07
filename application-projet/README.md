@@ -34,8 +34,8 @@ mysql -uuser -p < schema.sql && mysql -uuser -p < data.sql
 
 ### Depuis une connexion ouverte
 
-1. Ouvrir une connexion avec `mysql`. Une fois connecté, chargez les scripts :
-2. Utiliser l'instruction SQL `SOURCE`
+1. Ouvrir une connexion avec `mysql`. 
+2. Une fois connecté·e, chargez les scripts avec [l'instruction SQL `SOURCE`](https://dev.mysql.com/doc/refman/8.0/en/mysql-batch-commands.html)
 
 ~~~bash
 mysql> SOURCE schema.sql;
@@ -43,6 +43,8 @@ mysql> SOURCE data.sql;
 # Regénérer le schéma et l'état de la base avec le jeu de données test en une commande
 mysql> SOURCE schma.sql; SOURCE data.sql;
 ~~~
+
+> Penser à fournir le chemin complet du fichier à éxecuter ou le chemin relatif (depuis le chemin où vous avez ouvert la connexion). Sinon `mysql` ne le trouvera pas.
 
 ## Conception
 
